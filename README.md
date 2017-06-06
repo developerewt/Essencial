@@ -1,8 +1,9 @@
 # Essencial
-## Creating awesome things without effort and less code.
+## Development stage
 
-Coming soon I hope publish a full documentation about the features and how to use this small framework.
+- Creating the route layer;
+    - Methods GET and POST implemented;
+    - Method to Redirect implemented;
+- Creating the view layer;
+- Deploying Eloquent ORM as default;
 
-Please, send email for me if you have a question: `developerewt@gmail.com` will be a pleasure answer you!
-
-***Ewerton Melo***
