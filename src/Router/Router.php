@@ -4,7 +4,6 @@ namespace Essencial\Router;
 
 use Aura\Router\RouterContainer;
 use Essencial\Plugin\PluginInterface;
-use Essencial\ServiceContainer;
 use Essencial\ServiceContainerInterface;
 use Interop\Container\ContainerInterface;
 use Psr\Http\Message\RequestInterface;
@@ -40,4 +39,6 @@ class Router implements PluginInterface
             $_SERVER, $_GET, $_POST, $_COOKIE, $_FILES
         );
     }
+
+
 }

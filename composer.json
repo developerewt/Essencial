@@ -18,7 +18,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Essencial\\": "src/"
+            "Essencial\\": "src/",
+            "App\\": "app/"
         }
+    },
+    "require": {
+        "twig/twig": "^2.4",
+        "illuminate/database": "^5.4"
     }
 }
